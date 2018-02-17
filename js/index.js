@@ -48,7 +48,7 @@ var app = {
 app.initialize();
 
 function pushStart() {
-    alert("Jay Mataji...");
+    alert("Jay Mataji");
     try{
         var push = PushNotification.init({
             android: {
@@ -59,7 +59,7 @@ function pushStart() {
                 // "clearBadge": true
             },
             ios: {
-                //senderID: "997173714040",
+                senderID: "997173714040",
                 alert: true,
                 badge: false,
                 sound: true
