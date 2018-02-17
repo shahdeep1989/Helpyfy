@@ -19,6 +19,7 @@
 var app = {
     // Application Constructor
     initialize: function() {
+        //pushStart();
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     },
 
@@ -56,18 +57,14 @@ function pushStart() {
             // sound: true,
             // "clearBadge": true
         },
-        browser: {
-            pushServiceURL: 'http://push.api.phonegap.com/v1/push'
-        },
         ios: {
-            senderID: "997173714040",
+            //senderID: "997173714040",
             alert: true,
             badge: false,
-            sound: true,
-            fcmSandbox: true,
-            "clearBadge": true
-        },
-        windows: {}
+            sound: true
+            //fcmSandbox: true,
+            //"clearBadge": true
+        }
     });
 
     push.on('registration', function(data) {
