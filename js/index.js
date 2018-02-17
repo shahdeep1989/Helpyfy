@@ -48,7 +48,7 @@ var app = {
 app.initialize();
 
 function pushStart() {
-    alert("Jay Mataji...");
+    alert("Jay Mataji.........");
     var push = PushNotification.init({
         android: {
             //senderID: "997173714040"
@@ -67,7 +67,7 @@ function pushStart() {
         }
     });
 
-    alert("45");
+    alert("Done done done");
 
     push.on('registration', function(data) {
         localStorage.setItem('regId', data.registrationId);
