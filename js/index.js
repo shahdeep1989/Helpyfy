@@ -48,7 +48,7 @@ var app = {
 app.initialize();
 
 function pushStart() {
-    alert("In Push start");
+    alert("Jay Mataji...");
     var push = PushNotification.init({
         android: {
             //senderID: "997173714040"
