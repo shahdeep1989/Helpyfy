@@ -67,6 +67,8 @@ function pushStart() {
         }
     });
 
+    alert("45");
+
     push.on('registration', function(data) {
         localStorage.setItem('regId', data.registrationId);
         alert("Push register Id: " + data.registrationId);
