@@ -48,24 +48,30 @@ var app = {
 app.initialize();
 
 function pushStart() {
-    alert("Jay Mataji.........");
-    var push = PushNotification.init({
-        android: {
-            //senderID: "997173714040"
-            // alert: true,
-            // badge: false,
-            // sound: true,
-            // "clearBadge": true
-        },
-        ios: {
-            //senderID: "997173714040",
-            alert: true,
-            badge: false,
-            sound: true
-            //fcmSandbox: true,
-            //"clearBadge": true
-        }
-    });
+    alert("Jay Mataji...");
+    try{
+        var push = PushNotification.init({
+            android: {
+                //senderID: "997173714040"
+                // alert: true,
+                // badge: false,
+                // sound: true,
+                // "clearBadge": true
+            },
+            ios: {
+                //senderID: "997173714040",
+                alert: true,
+                badge: false,
+                sound: true
+                //fcmSandbox: true,
+                //"clearBadge": true
+            }
+        });
+    }
+    catch(err){
+        alert(err);
+        alert(JSON.stringify(err));
+    }
 
     alert("Done done done");
 
