@@ -54,6 +54,7 @@ var app = {
         console.log('after init');
 
         push.on('registration', function(data) {
+            alert("Type of Push: " + data.registrationType);
             alert(JSON.stringify(data));
             alert(data.registrationId);
             console.log('registration event: ' + data.registrationId);
