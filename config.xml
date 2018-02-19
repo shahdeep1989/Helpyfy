@@ -110,7 +110,7 @@
         <allow-intent href="itms-apps:*" />
         <!-- <resource-file src="GoogleService-Info.plist" /> -->
     </platform>
-    <plugin name="phonegap-plugin-push" spec="git+https://github.com/phonegap/phonegap-plugin-push.git">
+    <plugin name="phonegap-plugin-push" spec="2.1.2">
         <variable name="SENDER_ID" value="1:107853515934:ios:8d9319b7280bf865" />
     </plugin>
 
