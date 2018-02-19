@@ -13,7 +13,7 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#ee6e73" />
     <preference name="StatusBarStyle" value="blacktranslucent" />
-    <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0">
+    <plugin name="phonegap-plugin-push" source="npm" spec="~2.0.0">
         <variable name="SENDER_ID" value="997173714040" />
     </plugin>
     <!-- <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0"> -->
