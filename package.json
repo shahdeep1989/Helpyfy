@@ -4,5 +4,24 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "displayName": "Helpyfy"
+    "displayName": "Helpyfy",
+    "cordova": {
+	    "platforms": [
+	      "android",
+	      "ios"
+	    ],
+	    "plugins": {
+	      "cordova-plugin-whitelist": {},
+	      "phonegap-plugin-push": {
+	        "SENDER_ID": "1:107853515934:ios:8d9319b7280bf865",
+	        "FCM_VERSION": "11.6.2"
+	      }
+	    }
+	},
+	"dependencies": {
+		"cordova-android": "^6.4.0",
+		"cordova-ios": "^4.5.4",
+		"cordova-plugin-whitelist": "^1.3.3",
+		"phonegap-plugin-push": "git+https://github.com/phonegap/phonegap-plugin-push.git"
+	}
 }
