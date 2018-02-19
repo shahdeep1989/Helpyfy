@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         //console.log('Received Device Ready Event');
         //console.log('calling setup push');
-        alert("Jay Mataji");
+        //alert("Jay Mataji");
         app.setupPush();
     },
     setupPush: function() {
