@@ -110,8 +110,11 @@
         <allow-intent href="itms-apps:*" />
         <resource-file src="GoogleService-Info.plist" />
     </platform>
-    <plugin name="phonegap-plugin-push" spec="https://github.com/phonegap/phonegap-plugin-push">
+    <!-- <plugin name="phonegap-plugin-push" spec="https://github.com/phonegap/phonegap-plugin-push">
         <variable name="SENDER_ID" value="1:107853515934:ios:8d9319b7280bf865" />
-        <!-- <variable name="FCM_VERSION" value="11.6.2" /> -->
+    </plugin> -->
+
+    <plugin name="phonegap-plugin-push" source="npm" spec="~1.9.1" >
+        <variable name="SENDER_ID" value="1:107853515934:ios:8d9319b7280bf865" />
     </plugin>
 </widget>
