@@ -15,6 +15,7 @@
     <preference name="StatusBarStyle" value="blacktranslucent" />
     <plugin name="phonegap-plugin-push" source="npm" spec="~1.9.1">
         <variable name="SENDER_ID" value="997173714040" />
+        <variable name="FCM_VERSION" value="11.6.2" />
     </plugin>
     <!-- <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0"> -->
     <!-- <plugin name="phonegap-plugin-push" source="npm" spec="~2.1.2">
