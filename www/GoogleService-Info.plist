@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>107853515934-82ne2il50bpa8p7ieev08hoil4k7taef.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.107853515934-82ne2il50bpa8p7ieev08hoil4k7taef</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBA4vjBNQyhqjRVxGSSqgjyX1_g_-Xfolw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>107853515934</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alvlunden.helpyfy</string>
+	<key>PROJECT_ID</key>
+	<string>helpyfy-93de3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>helpyfy-93de3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:107853515934:ios:8d9319b7280bf865</string>
+	<key>DATABASE_URL</key>
+	<string>https://helpyfy-93de3.firebaseio.com</string>
+</dict>
+</plist>

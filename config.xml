@@ -8,6 +8,7 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
+    <preference name='phonegap-version' value='cli-7.0.1' />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="StatusBarOverlaysWebView" value="false" />
@@ -103,15 +104,15 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <!-- <resource-file src="google-services.json" target="app/google-services.json" /> -->
+        <resource-file src="google-services.json" target="app/google-services.json" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <!-- <resource-file src="GoogleService-Info.plist" /> -->
+        <resource-file src="GoogleService-Info.plist" />
     </platform>
-    <plugin name="phonegap-plugin-push" spec="2.1.2">
-        <variable name="SENDER_ID" value="1:107853515934:ios:8d9319b7280bf865" />
+    <plugin name="phonegap-plugin-push" spec="2.0.0">
+        <!-- <variable name="SENDER_ID" value="1:107853515934:ios:8d9319b7280bf865" /> -->
     </plugin>
 
     <!-- <plugin name="phonegap-plugin-push" source="npm" spec="~1.9.0" >
